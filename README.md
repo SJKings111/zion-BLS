@@ -7,6 +7,6 @@ Zion BLS (Book Lending System)
 
 <!-- Step 2 : Install the node modules --> Give "npm install" command in terminal to install Node Modules
 
-<!-- Step 3 : Start the DB Json Server --> Give "npm run server" to start the DB JSON server for BE purpose
+<!-- Step 3 : Start the DB Json Server --> Give "npm run server" to start the DB JSON server for BE purpose! Sometime Json Server will fail, on that time please restart the server!
 
 <!-- Step 4 --> Give "npm start" to run the web

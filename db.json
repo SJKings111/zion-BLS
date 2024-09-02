@@ -1,0 +1,131 @@
+{
+  "books": [
+    {
+      "bookTitle": "Alice's Adventures in Wonderland",
+      "bookAuthor": "Lewis Carroll",
+      "isbn": 34653636,
+      "quantity": "5",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "isbn": 785785474,
+      "bookTitle": "The Adventures of Huckleberry Finn",
+      "bookAuthor": "Mark Twain",
+      "quantity": 5
+    },
+    {
+      "bookTitle": "The Adventures of Tom Sawyer",
+      "bookAuthor": "Mark Twain",
+      "isbn": 253666536,
+      "quantity": "4",
+      "id": "4"
+    },
+    {
+      "id": "5",
+      "isbn": 699585,
+      "bookTitle": "Treasure Island",
+      "bookAuthor": "Robert Louis Stevenson",
+      "quantity": 3
+    },
+    {
+      "id": "6",
+      "isbn": 25364875858,
+      "bookTitle": "Pride and Prejudice",
+      "bookAuthor": "Jane Austen",
+      "quantity": 9
+    },
+    {
+      "id": "7",
+      "isbn": 176245789,
+      "bookTitle": "Don Quixote",
+      "bookAuthor": "Miguel de Cervantes",
+      "quantity": 5
+    },
+    {
+      "id": "9",
+      "isbn": 785785474,
+      "bookTitle": "The Adventures of Huckleberry Finn",
+      "bookAuthor": "Mark Twain",
+      "quantity": 5
+    },
+    {
+      "id": "10",
+      "bookTitle": "\tThe Pilgrim's Progress",
+      "bookAuthor": "John Bunyan",
+      "isbn": "4674647",
+      "quantity": "3"
+    },
+    {
+      "bookTitle": "afca",
+      "bookAuthor": "ascaca",
+      "isbn": "5666",
+      "quantity": "3",
+      "id": "11"
+    },
+    {
+      "id": "12",
+      "bookTitle": "ferfwsf",
+      "bookAuthor": "sdfsf",
+      "isbn": "5353",
+      "quantity": "4"
+    },
+    {
+      "id": "13",
+      "bookTitle": "5rg",
+      "bookAuthor": "eff",
+      "isbn": "65464",
+      "quantity": "6"
+    },
+    {
+      "id": "14",
+      "bookTitle": "dfadf",
+      "bookAuthor": "67647",
+      "isbn": "46774",
+      "quantity": "6"
+    },
+    {
+      "id": "15",
+      "bookTitle": "The Pilgrim's Progress",
+      "bookAuthor": "vsvs",
+      "isbn": "46353",
+      "quantity": "67"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Rahul",
+      "email": "guynd@gmail.com",
+      "membershipId": "4245454"
+    },
+    {
+      "id": "2",
+      "name": "Deepak",
+      "email": "testqa+05@bitcot.com",
+      "membershipId": "6534646"
+    },
+    {
+      "id": "3",
+      "name": "Samson",
+      "email": "d@gmail.com",
+      "membershipId": "56634"
+    }
+  ],
+  "history": [
+    {
+      "id": "1",
+      "userId": "4245454",
+      "bookId": "5",
+      "borrowDate": "2024-09-02T05:36:22.545Z",
+      "returnDate": "2024-09-02T05:57:46.994Z"
+    },
+    {
+      "id": "2",
+      "userId": "56634",
+      "bookId": "4",
+      "borrowDate": "2024-09-02T06:01:55.919Z",
+      "returnDate": "2024-09-02T06:03:33.523Z"
+    }
+  ]
+}

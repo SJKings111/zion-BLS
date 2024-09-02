@@ -1,0 +1,123 @@
+@import url(../../UI/color_auditor.css);
+
+.form-header-container {
+    .form-header {
+        font-size: 50px;
+        font-weight: bold;
+        letter-spacing: 0px !important;
+        word-spacing: 10px !important;
+        text-align: center;
+        margin-bottom: 20px;
+        transition: color 0.3s ease;
+        color: var(--smokeygrey) !important;
+    }
+
+    @media (max-width: 768px) {
+        .form-header {
+            font-size: 40px !important;
+        }
+    }
+}
+
+
+.form-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    .form-group {
+        margin-bottom: 15px;
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+    }
+
+    .error-message {
+        color: var(--watermelon) !important;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: var(--twilight) !important;
+        color: var(--platinum) !important;
+        border: 2px solid var(--twilight) !important;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+
+        &:hover {
+            background-color: var(--twilight) !important;
+            color: var(--golden_yellow) !important;
+            border: 1px solid var(--golden_yellow) !important;
+        }
+    }
+
+    // Select box styling
+    select {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #fff;
+        font-size: 16px;
+        color: #333;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        cursor: pointer;
+
+
+        &:hover,
+        &:focus {
+            border-color: #888;
+            outline: none;
+        }
+    }
+
+
+    select option {
+        padding: 10px;
+        font-size: 16px;
+        color: #333;
+        background-color: #f9f9f9;
+    }
+}
+
+@media (max-width: 600px) {
+    .form-container {
+        padding: 20px;
+        margin: 20px 20px auto;
+    }
+
+    .form-group {
+        label {
+            font-size: 14px;
+        }
+
+        input {
+            padding: 6px;
+        }
+    }
+
+    button {
+        padding: 8px;
+        font-size: 14px;
+    }
+}

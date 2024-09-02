@@ -1,0 +1,190 @@
+@import '../../UI/color_auditor.css';
+
+/* Navbar Css Starts here */
+nav {
+    width: 100vw;
+    height: 10vh;
+    background: linear-gradient(180deg, var(--twilight), var(--toolbox)) !important;
+    box-shadow: 0px 5px 3px -1px var(--boxshadow_v6) !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    position: fixed;
+    z-index: 1;
+
+    .logoContainer {
+        width: 50%;
+    }
+
+    .webViewMainLogo,
+    .mobileViewMainLogo {
+        width: 25%;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .webViewMainLogo {
+        opacity: 1;
+    }
+
+    .mobileViewMainLogo {
+        opacity: 0;
+    }
+
+    .menuContainer {
+        cursor: pointer;
+        display: none;
+    }
+
+    .navLinks {
+        width: 50%;
+        height: 80%;
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: flex;
+            justify-content: center;
+            width: 20%;
+
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: var(--platinum);
+                font-size: x-large;
+                font-weight: bold;
+                text-decoration: none;
+                transition: color 0.3s;
+                width: 80%;
+
+                &:hover {
+                    color: var(--golden_yellow);
+                    background-color: var(--boxshadow_v5);
+
+                }
+            }
+        }
+    }
+
+    #menuToggle {
+        display: none;
+    }
+}
+
+/* Navbar Css Ends here */
+
+
+
+/* Hamburger Menu Icon Css Starts here */
+.menuIconContainer {
+    position: relative;
+    width: 24px;
+    height: 24px;
+
+    .defaultMenuIcon,
+    .hoverMenuIcon {
+        font-size: 24px;
+        transition: opacity 0.3s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .defaultMenuIcon {
+        opacity: 1;
+    }
+
+    .hoverMenuIcon {
+        opacity: 0;
+    }
+
+    &:hover {
+        .defaultMenuIcon {
+            opacity: 0;
+        }
+
+        .hoverMenuIcon {
+            opacity: 1;
+        }
+    }
+}
+
+/* Hamburger Menu Icon Css Ends here */
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        padding: 10px 15px !important;
+        flex-direction: row-reverse !important;
+
+        .logoContainer {
+            width: 20% !important;
+            display: flex !important;
+            justify-content: center !important;
+            padding: 5px !important;
+        }
+
+        .mobileViewMainLogo {
+            width: 200% !important;
+        }
+
+        .webViewMainLogo {
+            opacity: 0;
+        }
+
+        .mobileViewMainLogo {
+            opacity: 1;
+        }
+
+        .menuContainer {
+            display: block;
+            margin-right: 20px;
+            width: 10% !important;
+            height: 60% !important;
+
+        }
+
+        .menuIconContainer {
+            width: 100% !important;
+        }
+
+        .navLinks {
+            position: fixed;
+            top: 72px;
+            right: -100%;
+            background: var(--toolbox) !important;
+            box-shadow: 0px 5px 3px -1px var(--boxshadow_v6) !important;
+            width: 100%;
+            height: 40vh !important;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: right 0.3s ease;
+
+            li {
+                margin: 20px 0;
+                display: flex;
+                justify-content: center;
+                align-items: center !important;
+                width: 125%;
+
+                a {
+                    height: 250% !important;
+                    font-size: x-large;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        #menuToggle:checked~.navLinks {
+            right: 0;
+        }
+    }
+
+}

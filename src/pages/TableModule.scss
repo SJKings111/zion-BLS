@@ -1,0 +1,186 @@
+@import url(../UI/color_auditor.css);
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+    background-color: var(--white) !important;
+    border: 1px ridge var(--pastelgrey) !important;
+    border-radius: 5px;
+    margin: 0px 20px;
+
+    h2 {
+        margin: 0;
+        font-size: 50px;
+        color: var(--smokeygrey) !important;
+        letter-spacing: 2px !important;
+        word-spacing: 10px !important;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .addButton {
+        font-size: 24px;
+        font-weight: bold;
+        padding: 12px 24px;
+        background-color: var(--white) !important;
+        color: var(--twilight) !important;
+        border: 2px solid var(--twilight) !important;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        transition: color 0.3s ease;
+        min-width: 150px;
+        min-height: 50px;
+        text-align: center;
+
+        &:hover {
+            background-color: var(--twilight) !important;
+            color: var(--platinum) !important;
+        }
+    }
+
+    @media (max-width: 768px) {
+        padding: 16px 20px;
+
+        h2 {
+            font-size: 15px !important;
+            letter-spacing: 1px !important;
+            word-spacing: 5px !important;
+        }
+
+        .addButton {
+            font-size: 16px;
+            padding: 8px 16px;
+            min-width: 100px !important;
+            min-height: 40px !important;
+        }
+    }
+}
+
+.table-container {
+    padding: 20px;
+    overflow-x: auto;
+    max-width: 100%;
+
+    .ant-spin-nested-loading .ant-spin-container {
+        z-index: 0;
+        pointer-events: auto;
+    }
+
+    .ant-table {
+        width: 100%;
+        min-width: 800px;
+        overflow-x: auto;
+    }
+
+    .ant-table-thead>tr>th {
+        background: linear-gradient(180deg, var(--twilight), var(--toolbox)) !important;
+        color: var(--platinum) !important;
+        text-align: center !important;
+        font-size: 20px !important;
+        font-weight: bold !important;
+    }
+
+    .ant-table-wrapper .ant-table-tbody>tr>td {
+        text-align: center !important;
+        font-size: 17px !important;
+        color: var(--black_cow) !important;
+    }
+
+    .ant-table-row {
+        background-color: var(--white) !important;
+
+        &:hover {
+            background-color: var(--twilight) !important;
+            transition: background-color 0.9s ease;
+        }
+    }
+
+    .anticon {
+        color: var(--silverchalice) !important;
+        transition: color 0.3s ease !important;
+
+        &:hover {
+            color: var(--twilight) !important;
+        }
+    }
+
+    // .ant-pagination {
+    //     .ant-pagination-item {
+    //         // color: var(--twilight) !important;
+    //         // background-color: var(--white) !important;
+    //         // border-color: var(--twilight) !important;
+
+    //         &:hover {
+    //             color: var(--twilight) !important;
+    //             background-color: var(--white) !important;
+    //             border-color: var(--twilight) !important;
+    //             transition: background-color 0.3s ease;
+    //         }
+    //     }
+
+    //     .ant-pagination-item-active {
+    //         background-color: var(--twilight) !important;
+    //         color: var(--platinum) !important;
+    //         border-color: var(--golden_yellow) !important;
+    //     }
+    // }
+
+    @media (max-width: 768px) {
+        .table-container {
+            padding: 8px !important;
+        }
+
+        .ant-table {
+            font-size: 14px;
+            overflow-x: auto;
+        }
+
+        .ant-table-thead>tr>th,
+        .ant-table-tbody>tr>td {
+            padding: 8px;
+            white-space: nowrap;
+        }
+
+        .ant-pagination {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .ant-table {
+            font-size: 12px;
+            min-width: 100%;
+            overflow-x: scroll;
+        }
+
+        .ant-table-thead>tr>th,
+        .ant-table-tbody>tr>td {
+            padding: 6px;
+            white-space: nowrap;
+        }
+
+        .ant-pagination {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .ant-table-thead>tr>th {
+            font-size: 15px !important;
+            font-weight: bold !important;
+        }
+
+        .ant-table-wrapper .ant-table-tbody>tr>td {
+            font-size: 13px !important;
+        }
+
+        .ant-table-wrapper .ant-table-pagination.ant-pagination {
+            display: flex !important;
+            flex-direction: row !important;
+        }
+    }
+}

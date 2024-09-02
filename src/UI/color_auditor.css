@@ -1,0 +1,46 @@
+:root {
+    --boxshadow_v1: #0000001a !important;
+    --boxshadow_v2: #d1d1d1d4 !important;
+    --boxshadow_v3: #c9b6b6 !important;
+    --boxshadow_v4: #ffcd2f70 !important;
+    --boxshadow_v5: #00000069 !important;
+    --boxshadow_v6: #00000066 !important;
+
+    --white: #ffffff !important;
+    --whisper: #e7e7e7 !important;
+    --desert_storm: #f8f8f8 !important;
+    --gainsboro: #DDDDDD !important;
+    --pastelgrey: #CCCCCC !important;
+    --platinum: #E5E4E2 !important;
+
+    --black: #000000 !important;
+    --black_cow: #474747 !important;
+    --dune: #333333 !important;
+    --smokeygrey: #6f6f6f !important;
+    --thunder: #2F2F2F !important;
+    --devygrey: #565656 !important;
+    --silverchalice: #acacac !important;
+
+    --french_pass: #c0edff !important;
+    --artyclick_sky_blue: #00b5ff !important;
+    --strongblue: #0000EE !important;
+
+    --pinkred: #F4025A !important;
+    --artyclick_crimson: #FF008C !important;
+    --watermelon: #ff416c !important;
+    --orangeyred: #ff4b2b !important;
+    --amour: #ffeaea !important;
+
+    --golden_yellow: #FFDF00 !important;
+    --sunglow: #ffcd2f !important;
+    --artyclick_amber: #FFC200 !important;
+
+    --purple_jam: #7E1C7F !important;
+    --honey_flower: #4F1869 !important;
+    --purple_haze: #5A3377 !important;
+    --purplish_grey: #7F667C !important;
+    --pastel_purple: #C3B1E1 !important;
+    --toolbox: #756AB6 !important;
+    --twilight: #554994 !important;
+
+}

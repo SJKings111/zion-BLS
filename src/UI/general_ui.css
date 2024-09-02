@@ -1,0 +1,187 @@
+@import url(color_auditor.css);
+
+/* FONT SIZES */
+.fsize_10 {
+    font-size: 10px !important;
+}
+
+.fsize_15 {
+    font-size: 15px !important;
+}
+
+.fsize_18 {
+    font-size: 18px !important;
+}
+
+.fsize_20 {
+    font-size: 20px !important;
+}
+
+.fsize_25 {
+    font-size: 25px !important;
+}
+
+.fsize_30 {
+    font-size: 30px !important;
+}
+
+.fsize_35 {
+    font-size: 35px !important;
+}
+
+.fsize_40 {
+    font-size: 40px !important;
+}
+
+.fsize_45 {
+    font-size: 45px !important;
+}
+
+.fsize_50 {
+    font-size: 50px !important;
+}
+
+/* FONT WEIGHTS */
+.fweight_bold {
+    font-weight: bold !important;
+}
+
+/* WORD SPACING */
+.word_space_10 {
+    word-spacing: 10px !important;
+}
+
+/* LETTER SPACING */
+.lspace_2 {
+    letter-spacing: 2px !important;
+}
+
+/* TEXT COLORS */
+.text_french_pass {
+    color: var(--french_pass) !important;
+}
+
+.text_black_cow {
+    color: var(--black_cow) !important;
+}
+
+.text_artyclick_crimson {
+    color: var(--artyclick_crimson) !important;
+}
+
+.text_thunder {
+    color: var(--thunder) !important;
+}
+
+.text_devygrey {
+    color: var(--devygrey) !important;
+}
+
+/* TEXT UNDERLINE */
+.text_underline {
+    text-decoration: underline !important;
+}
+
+/* TEXT ALIGNMENT */
+.talign_left {
+    text-align: left !important;
+}
+
+.talign_right {
+    text-align: right !important;
+
+}
+
+.talign_center {
+    text-align: center !important;
+
+}
+
+/* CURSOR OPTIONAL */
+.cursor_pointer {
+    cursor: pointer !important;
+}
+
+.mt-1 {
+    margin-top: 1rem !important;
+}
+
+.mt-2 {
+    margin-top: 2rem !important;
+}
+
+.mt-3 {
+    margin-top: 3rem !important;
+}
+
+.mt-4 {
+    margin-top: 4rem !important;
+}
+
+.mt-5 {
+    margin-top: 5rem !important;
+}
+
+.mb-1 {
+    margin-bottom: 1rem !important;
+}
+
+.mb-2 {
+    margin-bottom: 2rem !important;
+}
+
+.mb-3 {
+    margin-bottom: 3rem !important;
+}
+
+.mb-4 {
+    margin-bottom: 4rem !important;
+}
+
+.mb-5 {
+    margin-bottom: 5rem !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly !important;
+}
+
+.justify-content-around {
+    justify-content: space-around !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.flex-column {
+    flex-direction: column !important;
+}
+
+.text-align-start {
+    text-align: start !important;
+}
+
+.width_20 {
+    width: 20% !important;
+}
+
+.width_25 {
+    width: 25% !important;
+}
+
+.width_30 {
+    width: 30% !important;
+}

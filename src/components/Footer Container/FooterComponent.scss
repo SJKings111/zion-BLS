@@ -1,0 +1,17 @@
+@import '../../UI/color_auditor.css';
+
+/* Footer CSS starts here */
+.footer {
+    width: 100%;
+    padding: 25px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: var(--black_cow) !important;
+    background: linear-gradient(180deg, var(--desert_storm), var(--whisper)) !important;
+    box-shadow: 0 -2px 5px var(--boxshadow_v1) !important;
+    z-index: 1;
+}
+
+/* Footer CSS ends here */

@@ -1,0 +1,63 @@
+@import '../../UI/color_auditor.css';
+
+/* Create two unequal columns that floats next to each other */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.promo-banner {
+    background-image: linear-gradient(to right, #000000, #0e001a, #170033, #20004c, #240066, #26007f, #d3ba0029) !important;
+    padding: 50px;
+    border-radius: 8px;
+    color: var(--platinum) !important;
+    margin-bottom: 50px;
+    text-align: left;
+    font-size: 20px;
+
+    h2 {
+        margin: 0;
+    }
+
+    a {
+        color: var(--platinum) !important;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
